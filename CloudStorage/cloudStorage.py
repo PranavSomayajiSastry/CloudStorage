@@ -17,8 +17,9 @@ class TransferData:
                 dropbox_path = os.path.join(file_to, relative_path)  
                                  
 def main():
-    access_token = 'riFu6Ybhc9AAAAAAAAAAHWkfE9AiGyD6n4254tOxesw7ShRjGjFhrjhRVa3NX3mx'
+    access_token = ''
         #access token to be coppied from https://www.dropbox.com/developers/apps/
+            #For example: VF9FHe56WkAAAAAAAAAADe9jdM3IIhZMd2wqGZxRnW1eDaXhn0_6Es4qO-9Qw7r6
     transferData = TransferData(access_token)
 
     file_from = str(input("Enter The File Path To Transfer: "))
